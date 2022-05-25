@@ -1,3 +1,10 @@
+/* 
+
+   Responsável por controlar requisições e respostas. Ou seja, o que é enviado a API e o que é como ela 
+responde. O controller não conhece as regras de negócio da API, essas são responsabilidade do service.
+
+*/
+
 const { customerLoginService } = require("../service/customer.service");
 
 const customerLoginController = async (req, res) => {
